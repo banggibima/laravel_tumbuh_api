@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Category as CategoryController;
 use App\Http\Controllers\Owner as OwnerController;
+use App\Http\Controllers\Plant as PlantController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('/owners', OwnerController::class);
 Route::resource('/categories', CategoryController::class);
+Route::resource('/plants', PlantController::class);
